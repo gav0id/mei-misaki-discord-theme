@@ -12,7 +12,7 @@ Preview
 ## Installation
 
 1. Install [BetterDiscord](https://betterdiscord.app/download) and restart Discord.
-2. Download the theme with the **Download here** link above. Alternatively, open `MeiMisaki.theme.css` in this repository and click the **Download raw file** button (the down-arrow icon at the top right of the code viewer). Make sure the file keeps the exact name `MeiMisaki.theme.css`.
+2. Download the theme: open `MeiMisaki.theme.css` in this repository and click the **Download raw file** button (the down-arrow icon at the top right of the code viewer). Make sure the file keeps the exact name `MeiMisaki.theme.css`.
 3. In Discord: *User Settings → BetterDiscord → Themes → Open Themes Folder*.
 4. Copy `MeiMisaki.theme.css` into that folder (on Windows: `%appdata%\BetterDiscord\themes`).
 5. Enable **Mei Misaki** in the *Themes* tab. If it doesn't show up, reload with `Ctrl + R`.
@@ -41,3 +41,4 @@ To use different images, replace the `url(...)` in `--mei-bg-image` or `--mei-fr
 - The Friends, Nitro, Shop and Quests image relies on the `:has()` selector, which is available in current Discord versions.
 - Using BetterDiscord is against Discord's Terms of Service.
 - The images of Mei belong to their respective authors and are used here as personal fan art.
+[README(3).md](https://github.com/user-attachments/files/34706737/README.3.md)
