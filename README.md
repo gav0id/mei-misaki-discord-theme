@@ -1,4 +1,5 @@
-[README.md](https://github.com/user-attachments/files/34661069/README.md)
+[README.md](https://github.com/user-attachments/files/34661176/README.md)
+
 # Mei Misaki — BetterDiscord theme
 
 A rounded Discord theme inspired by **Mei Misaki** (*Another*), with floating panels in the style of the Spotify Discord theme.
@@ -6,6 +7,8 @@ A rounded Discord theme inspired by **Mei Misaki** (*Another*), with floating pa
 - Palette: deep black, bone white, doll-eye blue and crimson.
 - Rounded panels, pill-shaped buttons, and rounded menus, embeds and inputs.
 - Mei as a background in the chat panel, plus a second image in the Friends tab (both embedded in the file).
+
+![Preview of the Mei Misaki theme](<img width="1295" height="604" alt="{10216FE9-8E8A-4035-8A7E-37C5257FA5EA}" src="https://github.com/user-attachments/assets/ab539ed1-cd8f-41f9-b5f5-e01b39d682a2" />)
 
 ## Installation
 
