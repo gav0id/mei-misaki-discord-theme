@@ -1,3 +1,4 @@
+[README.md](https://github.com/user-attachments/files/34661069/README.md)
 # Mei Misaki — BetterDiscord theme
 
 A rounded Discord theme inspired by **Mei Misaki** (*Another*), with floating panels in the style of the Spotify Discord theme.
@@ -9,9 +10,10 @@ A rounded Discord theme inspired by **Mei Misaki** (*Another*), with floating pa
 ## Installation
 
 1. Install [BetterDiscord](https://betterdiscord.app/download) and restart Discord.
-2. In Discord: *User Settings → BetterDiscord → Themes → Open Themes Folder*.
-3. Copy `MeiMisaki.theme.css` into that folder (on Windows: `%appdata%\BetterDiscord\themes`).
-4. Enable **Mei Misaki** in the *Themes* tab. If it doesn't show up, reload with `Ctrl + R`.
+2. Download the theme: open `MeiMisaki.theme.css` in this repository and click the **Download raw file** button (the down-arrow icon at the top right of the code viewer). Make sure the file keeps the exact name `MeiMisaki.theme.css`.
+3. In Discord: *User Settings → BetterDiscord → Themes → Open Themes Folder*.
+4. Copy `MeiMisaki.theme.css` into that folder (on Windows: `%appdata%\BetterDiscord\themes`).
+5. Enable **Mei Misaki** in the *Themes* tab. If it doesn't show up, reload with `Ctrl + R`.
 
 ## Customization
 
