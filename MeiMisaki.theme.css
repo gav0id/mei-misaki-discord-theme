@@ -1,8 +1,7 @@
 /**
  * @name Mei Misaki
  * @author gav0id
- * @version 1.2.0
- * @description Rounded, Spotify-style theme with the Mei Misaki (Another) palette: black, bone white, doll-eye blue and crimson. Includes Mei as a background in the chat and in the Friends tab.
+ * @version 1.3.0
  */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Cormorant+Garamond:wght@600;700&display=swap');
@@ -32,7 +31,7 @@
   --mei-bg-position: right bottom;
   --mei-bg-size: auto 94%;
 
-  --mei-friends-dim: 0.78;
+  --mei-friends-dim: 0.7;
   --mei-friends-position: 38% bottom;
   --mei-friends-size: auto 88%;
 
@@ -191,7 +190,7 @@ nav[class*="guilds_"] {
   background: transparent !important;
 }
 
-[class*="chat_"]:has([class*="peopleColumn_"]) {
+[class*="page_"]:not([class*="page_"] [class*="page_"]):is(:not(:has([class*="chat_"])), :has([class*="tabBody_"], [class*="applicationStore_"], [class*="shop_"])) {
   background:
     linear-gradient(rgba(15, 15, 19, var(--mei-friends-dim)), rgba(15, 15, 19, var(--mei-friends-dim))),
     var(--mei-friends-image) var(--mei-friends-position) / var(--mei-friends-size) no-repeat,
@@ -201,9 +200,12 @@ nav[class*="guilds_"] {
   margin: 0 var(--mei-gap) var(--mei-gap) 0;
   overflow: hidden;
 }
-[class*="chat_"]:has([class*="peopleColumn_"]) [class*="peopleColumn_"],
-[class*="chat_"]:has([class*="peopleColumn_"]) [class*="nowPlayingColumn_"],
-[class*="chat_"]:has([class*="peopleColumn_"]) [class*="container_"]:has(> [class*="peopleColumn_"]) {
+[class*="page_"]:not([class*="page_"] [class*="page_"]):is(:not(:has([class*="chat_"])), :has([class*="tabBody_"], [class*="applicationStore_"], [class*="shop_"])) > *,
+[class*="page_"]:not([class*="page_"] [class*="page_"]):is(:not(:has([class*="chat_"])), :has([class*="tabBody_"], [class*="applicationStore_"], [class*="shop_"])) [class*="tabBody_"],
+[class*="page_"]:not([class*="page_"] [class*="page_"]):is(:not(:has([class*="chat_"])), :has([class*="tabBody_"], [class*="applicationStore_"], [class*="shop_"])) [class*="nowPlayingColumn_"],
+[class*="page_"]:not([class*="page_"] [class*="page_"]):is(:not(:has([class*="chat_"])), :has([class*="tabBody_"], [class*="applicationStore_"], [class*="shop_"])) [class*="applicationStore_"],
+[class*="page_"]:not([class*="page_"] [class*="page_"]):is(:not(:has([class*="chat_"])), :has([class*="tabBody_"], [class*="applicationStore_"], [class*="shop_"])) [class*="homeWrapper_"],
+[class*="page_"]:not([class*="page_"] [class*="page_"]):is(:not(:has([class*="chat_"])), :has([class*="tabBody_"], [class*="applicationStore_"], [class*="shop_"])) [class*="shop_"] {
   background: transparent !important;
 }
 
