@@ -9,8 +9,6 @@ A rounded Discord theme inspired by **Mei Misaki** (*Another*), with floating pa
 Preview
 <img width="1295" height="604" alt="{10216FE9-8E8A-4035-8A7E-37C5257FA5EA}" src="https://github.com/user-attachments/assets/ab539ed1-cd8f-41f9-b5f5-e01b39d682a2" />
 
-**[Download here](https://github.com/gav0id/mei-misaki-discord-theme/releases/latest/download/MeiMisaki.theme.css)**
-
 ## Installation
 
 1. Install [BetterDiscord](https://betterdiscord.app/download) and restart Discord.
