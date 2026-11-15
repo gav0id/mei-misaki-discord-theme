@@ -41,4 +41,3 @@ To use different images, replace the `url(...)` in `--mei-bg-image` or `--mei-fr
 - The Friends, Nitro, Shop and Quests image relies on the `:has()` selector, which is available in current Discord versions.
 - Using BetterDiscord is against Discord's Terms of Service.
 - The images of Mei belong to their respective authors and are used here as personal fan art.
-[README(3).md](https://github.com/user-attachments/files/34706737/README.3.md)
