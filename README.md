@@ -11,7 +11,7 @@ Preview
 
 ## Installation
 
-1. Install [BetterDiscord](https://betterdiscord.app/download) and restart Discord.
+1. Install [BetterDiscord](https://betterdiscord.app/) and restart Discord.
 2. Download the theme: open `MeiMisaki.theme.css` in this repository and click the **Download raw file** button (the down-arrow icon at the top right of the code viewer). Make sure the file keeps the exact name `MeiMisaki.theme.css`.
 3. In Discord: *User Settings → BetterDiscord → Themes → Open Themes Folder*.
 4. Copy `MeiMisaki.theme.css` into that folder (on Windows: `%appdata%\BetterDiscord\themes`).
